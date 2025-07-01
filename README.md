@@ -1,6 +1,6 @@
-# Business Inventory Management System
+# Thrift Store (ExChange)
 
-This project is a Business Inventory Management System built using Qt, C++, and QML.
+This project is a Thrift Store Management System built using Qt, C++, and QML.
 
 ## Prerequisites
 
@@ -12,8 +12,8 @@ This project is a Business Inventory Management System built using Qt, C++, and 
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/business-inventory-management.git
-   cd business-inventory-management
+   git clone https://github.com/yourusername/ExChange.git
+   cd ExChange
    ```
 
 2. Create a build directory and navigate into it:
