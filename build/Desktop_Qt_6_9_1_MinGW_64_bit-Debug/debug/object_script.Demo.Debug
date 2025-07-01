@@ -1,0 +1,11 @@
+debug/main.o
+debug/databasemanager.o
+debug/usermodel.o
+debug/inventorymodel.o
+debug/salesmodel.o
+debug/userdashboard.o
+debug/moc_databasemanager.o
+debug/moc_usermodel.o
+debug/moc_inventorymodel.o
+debug/moc_salesmodel.o
+debug/moc_userdashboard.o

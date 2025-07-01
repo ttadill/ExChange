@@ -8,7 +8,7 @@ Item {
     Rectangle {
         anchors.fill: parent
         gradient: Gradient {
-            GradientStop { position: 0.0; color: "#1a237e" }
+            GradientStop { position: 0.0; color: "#111111" }
             GradientStop { position: 1.0; color: "#0d47a1" }
         }
     }
@@ -36,7 +36,7 @@ Item {
                 model: [
                     {title: "Total Inventory Items", value: userDashboard.totalInventoryItems, color: "#4caf50"},
                     {title: "Low Stock Items", value: userDashboard.lowStockItems, color: "#ff9800"},
-                    {title: "Expiring Items", value: userDashboard.expiringItems, color: "#f44336"},
+                    {title: "Out onLoginSuccessful Stock", value: userDashboard.expiringItems, color: "#f44336"},
                     {title: "Total Sales", value: userDashboard.totalSales, color: "#2196f3"},
                     {title: "Total Revenue", value: "$" + userDashboard.totalRevenue.toFixed(2), color: "#9c27b0"}
                 ]

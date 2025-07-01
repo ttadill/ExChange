@@ -25,7 +25,7 @@ Item {
         }
 
         Text {
-            text: "Business Inventory Management System"
+            text: "Thrift Store (ExChange)"
             font.pixelSize: 24
             font.bold: true
             color: "white"

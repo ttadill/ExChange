@@ -1,0 +1,11 @@
+release/main.o
+release/databasemanager.o
+release/usermodel.o
+release/inventorymodel.o
+release/salesmodel.o
+release/userdashboard.o
+release/moc_databasemanager.o
+release/moc_usermodel.o
+release/moc_inventorymodel.o
+release/moc_salesmodel.o
+release/moc_userdashboard.o

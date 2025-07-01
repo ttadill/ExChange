@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextProperty("salesModel", &salesModel);
     engine.rootContext()->setContextProperty("userDashboard", &userDashboard);
 
-    const QUrl url(QStringLiteral("../../Demo/main.qml"));
+    const QUrl url(QStringLiteral("../../main.qml"));
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
                      &app, [url](QObject *obj, const QUrl &objUrl) {
         if (!obj && url == objUrl)

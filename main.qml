@@ -77,7 +77,7 @@ ApplicationWindow {
                     spacing: 0
 
                     Repeater {
-                        model: ["Dashboard", "Inventory", "Sales", "Analytics"]
+                        model: ["Dashboard", "Inventory"]
                         delegate: ItemDelegate {
                             Layout.fillWidth: true
                             height: 50
@@ -98,12 +98,7 @@ ApplicationWindow {
                                     case "Inventory":
                                         stackView.replace("InventoryView.qml")
                                         break
-                                    case "Sales":
-                                        stackView.replace("SalesView.qml")
-                                        break
-                                    case "Analytics":
-                                        stackView.replace("AnalyticsView.qml")
-                                        break
+                                   
                                 }
                             }
                         }
