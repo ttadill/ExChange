@@ -6,7 +6,7 @@ ApplicationWindow {
     visible: true
     width: 1024
     height: 768
-    title: qsTr("Business Inventory Management System")
+    title: qsTr("ExChange")
 
     Rectangle {
         anchors.fill: parent

@@ -36,7 +36,7 @@ Item {
                 model: [
                     {title: "Total Inventory Items", value: userDashboard.totalInventoryItems, color: "#4caf50"},
                     {title: "Low Stock Items", value: userDashboard.lowStockItems, color: "#ff9800"},
-                    {title: "Out onLoginSuccessful Stock", value: userDashboard.expiringItems, color: "#f44336"},
+                    {title: "Out of Stock", value: userDashboard.expiringItems, color: "#f44336"},
                     {title: "Total Sales", value: userDashboard.totalSales, color: "#2196f3"},
                     {title: "Total Revenue", value: "$" + userDashboard.totalRevenue.toFixed(2), color: "#9c27b0"}
                 ]
@@ -81,7 +81,7 @@ Item {
             Layout.fillHeight: true
 
             background: Rectangle {
-                color: "#ffffff"
+                color: "#000000"
                 radius: 10
                 opacity: 0.9
                 border.color: "#e0e0e0"
